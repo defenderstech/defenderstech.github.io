@@ -75,9 +75,9 @@ MEME_SETTINGS= {
     textShadowEdit: !1,
     watermarkAlpha: .8,
     watermarkMaxWidthRatio: .25,
-    watermarkColor: "default",
-    watermarkDark: "/tools/images/site-sbnation-dark-93f4efc3.svg",
-    watermarkSrc: "/tools/images/site-sbnation-85815447.svg",
+    watermarkColor: "/tools/images/rumi/rumi-logo-full-color.png",
+    watermarkDark: "/tools/images/rumi/rumi-logo-black.png",
+    watermarkSrc: "/tools/images/rumi/rumi-logo-white.png",
     watermarkOpts: [],
     width: 755
 }
