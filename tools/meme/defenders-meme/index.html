@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>
+    Image Builder — DefendersTech
+</title>
+<link href="../../stylesheets/style.css" rel="stylesheet" /><link href="../../stylesheets/tools/meme/application-e233653e.css" rel="stylesheet" />
+<script src="../../javascripts/vendor/jquery-77f53920.js"></script>
+  </head>
+  <body class="meme meme_sbnation meme_sbnation_index">
+    <div class="tools">
+     
+  <link href="../../stylesheets/sites/sbnation-9bbe5024.css" rel="stylesheet" />
+  <script src="../../javascripts/sites/sbnation-3dbde1fc.js"></script>
+  <div class="header-logo">
+    <a href="../../index.html" class="header-logo-link">
+      <img style="display:block;margin:20px auto 0px auto;height:80px;" class="header-logo-image" src="../../images/defenderstech-logo.png">
+    </a>
+  </div>
+  <script src="../../javascripts/header-242a529b.js"></script>
+<div class="pick-site-error"></div>
+<div class="pick-tool"></div>
+
+<div class="clearfix content" id="meme">
+  <h3 style="color:#515153">An Image Builder builder for human rights organizations supported by DefendDefenders</h3>
+
+  <div class="m-meme">
+    <form class="m-editor" id="meme-editor-view">
+
+  <ul class="pane-toggle">
+    <li class="content-tab tab" data-pane="content-pane"><h2>Content</h2></li>
+    <li class="design-tab tab" data-pane="design-pane"><h2>Design</h2></li>
+  </ul>
+
+  <div class="content-pane drawer">
+    <textarea id="headline" name="headline" type="text" value=""></textarea>
+
+    <h4>Select Font</h4>
+    <select class="aspect-ratio" id="font-family">
+    <option value="" disabled>Headline font</option>
+    </select>
+
+    <h4>Font Size</h4>
+    <input id="font-size" type="range" max="64" min="18" step=".1" value="24">
+
+    <h4>Letter Spacing</h4>
+    <input id="letter-spacing" type="range" max="4" min="0" step="1" value="0">
+
+    <h4>Text Alignment</h4>
+    <select class="text-align" id="text-align">
+    <option value="" disabled>Horizontal alignment</option>
+    </select>
+    <select class="text-align" id="text-align-vertical">
+    <option value="" disabled>Vertical alignment</option>
+    </select>
+
+    <h4>Additional Padding</h4>
+    <input id="padding-scale" type="range" max="80" min="0" step="1" value="0">
+
+    <input id="credit" name="credit" type="text" value="">
+
+    <div class="checkbox-group text-case">
+      <input id="head-uppercase" name="head-uppercase" type="checkbox">
+      <label for="head-uppercase"><h4>Uppercase Headline</h4></label>
+      <input id="source-uppercase" name="source-uppercase" type="checkbox">
+      <label for="source-uppercase"><h4>Uppercase Source</h4></label>
+    </div>
+
+  </div>
+
+  <div class="design-pane drawer">
+    <h4>Aspect Ratio</h4>
+    <select class="aspect-ratio" id="aspect-ratio">
+    <option value="" disabled>Select aspect ratio</option>
+    <option value="twitter">2:1 (Twitter)</option> <!-- [W:1024px | H:512px] -->
+    <option value="instagram">1:1 (Twitter or Instagram)</option> <!-- [W:1080px | H:1080px] -->
+    <option value="facebook">Facebook</option> <!-- [W:1200px | H:630px] -->
+    <option value="pinterest">Pinterest </option> <!-- [W:736px | H:1128px] -->
+    </select>
+
+    <div class="dropzone" id="dropzone">Click or Drag Background Image</div>
+    <input type="file" id="file-input" name="file-input">
+
+    <h4>Resize image</h4>
+    <input id="image-scale" type="range" max="4" min=".01" step=".01" value="1">
+    
+    <h4>Alternate Layout</h4>
+    <select class="alternate-layout" id="alternate-layout">
+      <option value="" disabled>Select layout</option>
+      <option value="none">None</option>
+      <option value="no-image">No Image</option>
+      <option value="left-right">Left Text / Right Image</option>
+    </select>
+
+    <div class="m-editor__backgroundColor" id="background-color">
+      <h4>Solid Background</h4>
+      <ul class="checkbox-group">
+        <li><label><input type="radio" name="background-color" value="" checked> Off</label></li>
+      </ul>
+    </div>
+
+    <div class="m-editor__overlay" id="overlay">
+      <h4>Overlay Color</h4>
+      <ul class="checkbox-group">
+        <li><label><input type="radio" name="overlay" value=""> None</label></li>
+      </ul>
+    </div>
+
+    <h4>Overlay Opacity</h4>
+    <input id="overlay-opacity" type="range" max="1" min=".01" step=".01" value=".5">
+
+    <div class="m-editor__font-color" id="font-color">
+      <h4>Font Color</h4>
+      <ul class="checkbox-group">
+        <li><label><input type="radio" name="font-color" value="#FFF" checked> Default</label></li>
+      </ul>
+    </div>
+    <div id="logo-color-container">
+    <h4>Logo<h4>
+    <select class="watermark-color" id="watermark-color">
+      <option value="" disabled>Select logo</option>
+      <option value="default">Default</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+    <select class="logo-side" id="logo-side">
+      <option value="" disabled>Select logo side</option>
+      <option value="right">Right</option>
+      <option value="left">Left</option>
+    </select>
+    </div>
+
+    <div class="dropzone" id="dropzone-watermark">Click or Drag Custom Logo / Watermark</div>
+    <input type="file" id="watermark-file-input" name="watermark-file-input">
+  </div>
+
+
+</form>
+    <div class="m-canvas" id="meme-canvas-view">
+  <div class="m-canvas__canvas" id="meme-canvas">
+    <noscript>Sorry, this tool requires a canvas-enabled browser. Try Google Chrome.</noscript>
+  </div>
+  <p class="m-canvas__download">
+    <a href="index.html#" class="button this-is-really-effing-important-why-are-you-not-picking-up-this-change-yo" download="share.png" id="meme-download">Download Image</a>
+  </p>
+</div>
+
+  </div>
+</div>
+
+    </div>
+
+    <script src="../../javascripts/errors-50baf88b.js"></script>
+    <script src="../../javascripts/tools/meme/application-6c4e993c.js"></script>
+  </body>
+</html>

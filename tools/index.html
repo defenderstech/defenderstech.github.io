@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>
+Vox Media Tools
+</title>
+<link rel="apple-touch-startup-image" href="http://voxmedia.com/images/vox-app-s.png"  sizes="320x460"  media="(max-device-width: 480px) and not (-webkit-min-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="http://voxmedia.com/images/vox-app-m.png" sizes="640x920"  media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="http://voxmedia.com/images/vox-app-l.png"    sizes="768x1004" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+<link rel="apple-touch-startup-image" href="http://voxmedia.com/images/vox-app-xl.png"     sizes="1024x748" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+<link rel="apple-touch-icon-precomposed" href="http://cdn.voxmedia.com/images/iphone-bookmark-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://cdn.voxmedia.com/images/ipad-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://cdn.voxmedia.com/images/iphone-retina-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://cdn.voxmedia.com/images/ipad-retina-144x144.png">
+<!--
+<script src="//use.typekit.net/kod5kdc.js"></script>
+<script src="//use.typekit.net/jrs4iwi.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+-->
+<link href="stylesheets/styles-768ab111.css" rel="stylesheet" />
+<script src="javascripts/vendor/jquery-77f53920.js"></script>
+  </head>
+  <body class="index">
+    <div class="tools">
+      <script>
+var VOX = VOX || {};
+VOX.Site = '';
+VOX.Context = {
+  absolute_prefix: 'https://apps.voxmedia.com',
+  url_prefix: '/tools/'
+};
+VOX.Tools = [
+{"tool": "Features", "image": "/tools/images/features-b0f19801.png", "link": "features"},{"tool": "Image builder", "image": "/tools/images/meme-95a26b9b.png", "link": "meme"},{"tool": "Image slider", "image": "/tools/images/slider-2c961381.png", "link": "image-slider"},{"tool": "Image zoom", "image": "/tools/images/zoom-3d34014c.png", "link": "image-zoom"},{"tool": "Quiz", "image": "/tools/images/quiz-273daa9a.png", "link": "quiz"},{"tool": "Snippets", "image": "/tools/images/snippets-9142f57b.jpg", "link": "snippets"},{"tool": "Power Rankings", "image": "/tools/images/power-rankings-54ac5f1e.png", "link": "power-rankings"},{"tool": "Charts", "image": "/tools/images/charts-6815c2ef.png", "link": "charts"},{"tool": "Personality quiz", "image": "/tools/images/personality-quiz-036c5c18.png", "link": "personality-quiz"},{"tool": "Related links", "image": "/tools/images/related-links-ae23e5bc.jpg", "link": "related-links"},{"tool": "Next click", "image": "/tools/images/article-popout-15539a73.png", "link": "next-click"},
+]
+VOX.Sites = [
+{"site": "curbed", "logo": "/tools/images/site-curbed-8d960d59.png"},{"site": "eater", "logo": "/tools/images/site-eater-3468d6ee.svg"},{"site": "polygon", "logo": "/tools/images/site-polygon-b667a046.svg"},{"site": "racked", "logo": "/tools/images/site-racked-999428cf.png"},{"site": "sbnation", "logo": "/tools/images/site-sbnation-85815447.svg"},{"site": "theverge", "logo": "/tools/images/site-theverge-7823f973.svg"},{"site": "vox", "logo": "/tools/images/site-vox-2959843e.svg"},{"site": "recode", "logo": "/tools/images/site-recode-450ce2d0.svg"},{"site": "voxmedia", "logo": "/tools/images/site-voxmedia-light-3b641a5e.svg"},
+]
+VOX.SiteAssets = {
+  "curbed": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/curbed-ec409f74.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/curbed-b2d82b22.js"
+  },
+
+  "eater": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/eater-c79aa543.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/eater-5989fd8b.js"
+  },
+
+  "polygon": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/polygon-56de80da.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/polygon-37dcba26.js"
+  },
+
+  "racked": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/racked-c811cb2f.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/racked-0d764695.js"
+  },
+
+  "sbnation": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/sbnation-9bbe5024.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/sbnation-3dbde1fc.js"
+  },
+
+  "theverge": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/theverge-2fd540d7.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/theverge-d3477286.js"
+  },
+
+  "vox": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/vox-5423cf6e.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/vox-55adbee4.js"
+  },
+
+  "recode": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/recode-2d763976.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/recode-52b4d2de.js"
+  },
+
+  "voxmedia": {
+    "stylesheet": "https://apps.voxmedia.com/tools/stylesheets/sites/voxmedia-c19e04cb.css",
+    "script": "https://apps.voxmedia.com/tools/javascripts/sites/voxmedia-90f5b7f0.js"
+  },
+ }
+VOX.Target = 'prod';
+</script>
+<header class="clearfix header">
+  <div class="header-logo">
+    <a href="index.html" class="header-logo-link">
+      <img class="header-logo-image" src="images/vox-media-e9afbdb7.svg">
+    </a>
+  </div>
+  <nav class="header-nav">
+    <ul class="header-nav-list">
+      <li class="header-nav-list-menu">
+        <span class="header-nav-list-link">Tools</span>
+        <ul id="header-nav-list-menu-tools" class="header-nav-list-menu-sub">
+          <li class="cf features">
+<a href="../features/index.html">              <img src="images/features-b0f19801.png" />
+              <span>Features</span>
+</a>          </li>
+          <li class="cf meme">
+<a href="../meme/index.html">              <img src="images/meme-95a26b9b.png" />
+              <span>Image builder</span>
+</a>          </li>
+          <li class="cf image-slider">
+<a href="../image-slider/index.html">              <img src="images/slider-2c961381.png" />
+              <span>Image slider</span>
+</a>          </li>
+          <li class="cf image-zoom">
+<a href="../image-zoom/index.html">              <img src="images/zoom-3d34014c.png" />
+              <span>Image zoom</span>
+</a>          </li>
+          <li class="cf quiz">
+<a href="../quiz/index.html">              <img src="images/quiz-273daa9a.png" />
+              <span>Quiz</span>
+</a>          </li>
+          <li class="cf snippets">
+<a href="../snippets/index.html">              <img src="images/snippets-9142f57b.jpg" />
+              <span>Snippets</span>
+</a>          </li>
+          <li class="cf power-rankings">
+<a href="../power-rankings/index.html">              <img src="images/power-rankings-54ac5f1e.png" />
+              <span>Power Rankings</span>
+</a>          </li>
+          <li class="cf charts">
+<a href="../charts/index.html">              <img src="images/charts-6815c2ef.png" />
+              <span>Charts</span>
+</a>          </li>
+          <li class="cf personality-quiz">
+<a href="../personality-quiz/index.html">              <img src="images/personality-quiz-036c5c18.png" />
+              <span>Personality quiz</span>
+</a>          </li>
+          <li class="cf related-links">
+<a href="../related-links/index.html">              <img src="images/related-links-ae23e5bc.jpg" />
+              <span>Related links</span>
+</a>          </li>
+          <li class="cf next-click">
+<a href="../next-click/index.html">              <img src="images/article-popout-15539a73.png" />
+              <span>Next click</span>
+</a>          </li>
+        </ul>
+      </li>
+      <li class="header-nav-list-menu">
+        <strong id="site">Sites</strong>
+        <ul id="header-nav-list-menu-sites" class="header-nav-list-menu-sub">
+          <li>
+            <a data-site="Curbed" href="javascript:void(0);">
+              <img src="images/site-curbed-8d960d59.png" />
+            </a>
+          </li>
+          <li>
+            <a data-site="Eater" href="javascript:void(0);">
+              <img src="images/site-eater-3468d6ee.svg" />
+            </a>
+          </li>
+          <li>
+            <a data-site="Polygon" href="javascript:void(0);">
+              <img src="images/site-polygon-b667a046.svg" />
+            </a>
+          </li>
+          <li>
+            <a data-site="Racked" href="javascript:void(0);">
+              <img src="images/site-racked-999428cf.png" />
+            </a>
+          </li>
+          <li>
+            <a data-site="SB Nation" href="javascript:void(0);">
+              <img src="images/site-sbnation-85815447.svg" />
+            </a>
+          </li>
+          <li>
+            <a data-site="The Verge" href="javascript:void(0);">
+              <img src="images/site-theverge-7823f973.svg" />
+            </a>
+          </li>
+          <li>
+            <a data-site="Vox" href="javascript:void(0);">
+              <img src="images/site-vox-2959843e.svg" />
+            </a>
+          </li>
+          <li>
+            <a data-site="VoxMedia" href="javascript:void(0);">
+              <img src="images/site-voxmedia-light-3b641a5e.svg" />
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <script src="javascripts/header-242a529b.js"></script>
+</header>
+<div class="pick-site-error"></div>
+<div class="pick-tool"></div>
+
+
+    </div>
+    <script id="pick-site-error" type="text/x-handlebars-template">
+  <div class="content">
+    <div class="pick-site">
+      <h3>Choose a site</h3>
+      <ul>
+        {{#.}}
+          <li><a data-site="{{site}}" href="javascript:void(0);"><img src="{{logo}}"></a></li>
+        {{/.}}
+      </ul>
+    </div>
+  </div>
+</script>
+<script id="pick-tool" type="text/x-handlebars-template">
+<h3>Choose a tool</h3>
+<ul>
+  {{#.}}
+    <li class="{{link}}"><a href="/tools/{{link}}/{{site}}"><img src="{{image}}"><span>{{tool}}</span></a></li>
+  {{/.}}
+</ul>
+</script>
+
+    <script src="javascripts/errors-50baf88b.js"></script>
+    
+  </body>
+</html>
