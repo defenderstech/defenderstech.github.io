@@ -75,7 +75,7 @@ MEME_SETTINGS= {
     textShadowEdit: !1,
     watermarkAlpha: .8,
     watermarkMaxWidthRatio: .25,
-    watermarkColor: "/tools/images/rumi/rumi-logo-full-color.png",
+    watermarkColor: "default",
     watermarkDark: "/tools/images/rumi/rumi-logo-black.png",
     watermarkSrc: "/tools/images/rumi/rumi-logo-white.png",
     watermarkOpts: [
@@ -100,8 +100,6 @@ MEME_SETTINGS= {
         {text: 'Round Rock Leader', value: 'source/images/roundrock.png', data: ''},
         {text: 'Smithville Times', value: 'source/images/smithville.png', data: ''},
         {text: 'Westlake Picayune', value: 'source/images/westlake.png', data: ''}
-
-
     ],
     width: 755
 }
