@@ -78,7 +78,7 @@ MEME_SETTINGS= {
     watermarkColor: "/tools/images/rumi/rumi-logo-full-color.png",
     watermarkDark: "/tools/images/rumi/rumi-logo-black.png",
     watermarkSrc: "/tools/images/rumi/rumi-logo-white.png",
-    watermarkOpts: [],
+    watermarkOpts: ["/tools/images/coalition/coalition-logos-08.png","/tools/images/coalition/coalition-logos-09.png","/tools/images/coalition/coalition-logos-10.png"],
     width: 755
 }
 
