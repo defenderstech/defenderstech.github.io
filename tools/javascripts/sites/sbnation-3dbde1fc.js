@@ -78,7 +78,31 @@ MEME_SETTINGS= {
     watermarkColor: "/tools/images/rumi/rumi-logo-full-color.png",
     watermarkDark: "/tools/images/rumi/rumi-logo-black.png",
     watermarkSrc: "/tools/images/rumi/rumi-logo-white.png",
-    watermarkOpts: ["/tools/images/coalition/coalition-logos-08.png","/tools/images/coalition/coalition-logos-09.png","/tools/images/coalition/coalition-logos-10.png"],
+    watermarkOpts: [
+        {text: 'Statesman', value: 'source/images/statesman.png', data: ''},
+        {text: 'MyStatesman', value: 'source/images/mystatesman.png', data: ''},
+        {text: 'Hookem+ (white)', value: 'source/images/hookemplus-white.png', data: ''},
+        {text: 'Hookem+ (color)', value: 'source/images/hookemplus-color.png', data: ''},
+        {text: 'Hookem.com (white)', value: 'source/images/hookem.png', data: ''},
+        {text: 'Hookem.com (color)', value: 'source/images/hookem-color.png', data: ''},
+        {text: 'Austin360', value: 'source/images/logo-austin360-white.png', data: ''},
+        {text: 'Austin360 app', value: 'source/images/austin360app.png', data: ''},
+        {text: '512tech (white)', value: 'source/images/512tech-white.png', data: ''},
+        {text: '512tech (color)', value: 'source/images/512tech.png', data: ''},
+        {text: 'Ahora Si', value: 'source/images/ahorasi.png', data: ''},
+        {text: 'PolitiFact Texas (white)', value: 'source/images/politifact-white.png', data: ''},
+        {text: 'PolitiFact Texas (color)', value: 'source/images/politifact.png', data: ''},
+        {text: 'PolitiFact Texas (truth)', value: 'source/images/politifact-truth-o-meter.png', data: ''},
+        {text: 'Austin answered', value: 'source/images/austin-answered-black.png', data: ''},
+        {text: 'Bastrop Advertiser', value: 'source/images/bastrop.png', data: ''},
+        {text: 'Lake Travis View', value: 'source/images/laketravis.png', data: ''},
+        {text: 'Pflugerville Pflag', value: 'source/images/pflugerville.png', data: ''},
+        {text: 'Round Rock Leader', value: 'source/images/roundrock.png', data: ''},
+        {text: 'Smithville Times', value: 'source/images/smithville.png', data: ''},
+        {text: 'Westlake Picayune', value: 'source/images/westlake.png', data: ''}
+
+
+    ],
     width: 755
 }
 
