@@ -76,8 +76,8 @@ MEME_SETTINGS= {
     watermarkAlpha: .8,
     watermarkMaxWidthRatio: .25,
     watermarkColor: "default",
-    watermarkDark: "/tools/images/rumi/rumi-logo-black.png",
-    watermarkSrc: "/tools/images/rumi/rumi-logo-white.png",
+    watermarkDark: "",
+    watermarkSrc: "",
     watermarkOpts: [
         {text: 'Rumi (color)', value: 'tools/images/rumi/rumi-logo-full-color.png', data: ''},
         {text: 'Rumi (white)', value: 'tools/images/rumi/rumi-logo-white.png', data: ''},
