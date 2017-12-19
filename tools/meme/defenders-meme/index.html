@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -122,7 +122,7 @@
     </div>
     <div id="logo-color-container">
     <h4>Logo<h4>
-    <select class="watermarkopts" id="watermarkopts">
+    <select class="watermarkopts" id="watermarkopts" onchange="draw()">
       <option value="" disabled>Select logo</option>
      
     </select>
@@ -155,5 +155,36 @@
 
     <script src="../../javascripts/errors-50baf88b.js"></script>
     <script src="../../javascripts/tools/meme/application-6c4e993c.js"></script>
+    <script type="text/javascript">
+    function draw() {
+      var meme= document.getElementById('meme-canvas').childNodes;
+      var canvas= document.getElementById('meme-canvas');
+      var ctx = meme[0].getContext('2d')
+      var img = new Image();
+      
+      img.onload = function() {
+        canvas.width=1024*0.3;
+        canvas.height=512*0.3;
+
+  var w=img.width;
+  var h=img.height;
+
+  // resize img to fit in the canvas 
+  // You can alternately request img to fit into any specified width/height
+  var sizer=scalePreserveAspectRatio(w,h,canvas.width,canvas.height);
+  ctx.drawImage(img,0,0,w,h,450,350,w*sizer,h*sizer);
+      };
+
+      var e = document.getElementById("watermarkopts");
+      var strUser = e.options[e.selectedIndex].value;
+      img.src = '/'+ strUser;
+      
+    };
+
+function scalePreserveAspectRatio(imgW,imgH,maxW,maxH){
+  return(Math.min((maxW/imgW),(maxH/imgH)));
+}
+
+    </script>
   </body>
 </html>
